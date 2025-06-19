@@ -14,7 +14,7 @@ phases:
  
   build: 
     commands: 
-     	- pw
+      - pw
       - ls
       - terraform init -no-color
       - terraform plan
